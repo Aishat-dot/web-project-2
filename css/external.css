@@ -1,19 +1,27 @@
+/*Adds a margin to all images*/
 img {
-    display: block; margin:auto;
+    margin:auto;
 }
+/*For all code within the "main" element, the below code aligns the text to the center, adds a  solid black 2px border to it, curves the border, 
+adds a background color of aquamarine, a margin of 10px by 250px, and padding of 2px by 20px*/
 main {
     text-align: center; border: 2px solid black; border-radius: 8px; background-color: aquamarine; margin: 10px 250px; padding: 2px 20px;
 }
+/*Class for all links in the nav bar. Makes the background color darkblue, text color aliceblue, padding of 16px by 185px, font-size of 20px,
+font family-Arial Verdana, sans-serif, and removes the line from underneath the links*/
 .navbarlink {
     background-color: darkblue; color:aliceblue; 
     padding: 16px 185px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
 }
+/*When you hover over a link it changes the background color to cornflower blue, and the text color to honey dew*/
 a:hover {
     background-color: cornflowerblue; color: honeydew; 
 }
+/*Adds a background image of the treaty 1 flag*/
 body {
     background-image: url(https://www.crwflags.com/fotw/images/c/ca_trty1a.gif); 
 }
+/*Class for source links. Makes text color darkblue, font size - 14 pixels, and removes line from underneath*/
 .sources {
     color: darkblue; font-size: 14px; text-decoration: none;
 }
