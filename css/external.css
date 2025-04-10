@@ -1,11 +1,14 @@
 /*Adds a margin to all images*/
+body {
+    background-color: #0B0C51;
+}
 img {
     margin:auto;
 }
 /*For all code within the "main" element, the below code aligns the text to the center, adds a  solid black 2px border to it, curves the border, 
 adds a background color of aquamarine, a margin of 10px by 250px, and padding of 2px by 20px*/
 main {
-    text-align: center; border: 2px solid black; border-radius: 8px; background-color: aquamarine; margin: 10px 250px; padding: 2px 20px;
+    text-align: center; border: 1px solid black; margin: 2px 250px; padding: 2px 20px; background-color: whitesmoke; font-size: 16px;
 }
 /*Class for all links in the nav bar. Makes the background color darkblue, text color aliceblue, padding of 16px by 185px, font-size of 20px,
 font family-Arial Verdana, sans-serif, and removes the line from underneath the links*/
@@ -17,11 +20,10 @@ font family-Arial Verdana, sans-serif, and removes the line from underneath the 
 a:hover {
     background-color: cornflowerblue; color: honeydew; 
 }
-/*Adds a background image of the treaty 1 flag*/
-body {
-    background-image: url(https://www.crwflags.com/fotw/images/c/ca_trty1a.gif); 
-}
 /*Class for source links. Makes text color darkblue, font size - 14 pixels, and removes line from underneath*/
 .sources {
-    color: darkblue; font-size: 14px; text-decoration: none;
+    color: 3538E9; font-size: 14px; text-decoration: none;
+}
+* {
+    line-height: 2.3rem;  
 }
