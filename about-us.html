@@ -5,14 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <style>
-
+        main {
+            color:blue;
+        }
     </style>
     <link rel="stylesheet" href="css/external.css">
 </head>
 <body>
-    <h1>About Us</h1>
-    <p>Our website was created to educate young people all around Canada about the different treaties and their importance.
-        
-    </p>
+    <main>
+        <section>
+            <!--Section explaining the purpose of our website-->
+            <h1>About Us</h1>
+            <p>Our website was created to educate young people all around Canada about the different treaties and their importance.
+                We think that everyone should learn about the different treaties in Canada as it is apart of our history, and the treaties played a crucial part in the development of our nation.
+            </p>
+        </section>
+        <!--Form -->
+        <form>
+            <fieldset>
+                <legend><b>Please fill out this form.</b></legend>
+                <label for="fullname">Full Name: (required)</label>
+                <input type="text" name="name" id="helpful" required placeholder="John Doe"/>
+                <br/>
+                <br/>
+                <label for="email">Email: (required)</label>
+                <input type="text" name="email" id="email" required placeholder="Johndoe@example.com"/>
+                <br/>
+                <br/>
+                <label for="notifications">Would you like to recieve notifications about things related to our website? </label>
+                <label for="notifications">Yes</label>
+                <input type="radio" name="notifications" id="notifications" value="Yes"/>
+                <label for="notifications">No</label>
+                <input type="radio" name="notifications" id="notifications" value="No"/>
+                <br/>
+                <label for="helpful">Was this website helpful? </label>
+                <label for="helpful">Yes</label>
+                <input type="radio" name="helpful-or-not" id="helpful" value="Yes"/>
+                <label for="helpful">No</label>
+                <input type="radio" name="helpful-or-not" id="helpful" value="No"/>
+                <br/>
+                <label for
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
