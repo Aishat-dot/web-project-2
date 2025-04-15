@@ -5,21 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <style>
-        main {
+        form {
             color:blue;
+        }
+        h2 {
+            text-align: left;
         }
     </style>
     <link rel="stylesheet" href="css/external.css">
 </head>
 <body>
     <main>
+        <header>
+            <!--Navigation bar-->
+            <nav>
+                <ul type="none">
+                    <li><a class="navbarlink" href="index.html">Home</a></li>
+                    <li><a class="navbarlink" href="treatyone.html">Treaty 1</a></li>
+                    <li><a class="navbarlink" href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+            <br/>
+            <h1><u>About us</u></h1>
+        </header>
+        <!--Section explaining the purpose of our website-->
         <section>
-            <!--Section explaining the purpose of our website-->
-            <h1>About Us</h1>
             <p>Our website was created to educate young people all around Canada about the different treaties and their importance.
                 We think that everyone should learn about the different treaties in Canada as it is apart of our history, and the treaties played a crucial part in the development of our nation.
             </p>
         </section>
+        <br/>
+        <div>
+            <h2>Contact Us</h2>
+            <ul type="none">
+                <li>Phone: (+1)204 986 7468</li>
+                <li>Email: team@treatyone.com</li>
+                <li>Address: 114 Sesame Street</li>
+                <li> Open 8:00 a.m. - 8:00 p.m.</li>
+            </ul>
+        </div>
+        <br/>
         <!--Form -->
         <form>
             <fieldset>
@@ -44,8 +69,7 @@
                 <label for="helpful">No</label>
                 <input type="radio" name="helpful-or-not" id="helpful" value="No"/>
                 <br/>
-                <label for
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit"/>
             </fieldset>
         </form>
     </main>

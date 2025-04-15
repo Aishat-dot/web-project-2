@@ -1,6 +1,17 @@
+/*
+I chose the monochromatic color family because I liked the idea of using one color in different ways.
+I chose the color blue because it has been proven to increase productivity and extend perspective.
+*/
 /*Adds a margin to all images*/
 body {
-    background-color: #0B0C51;
+    background-color: #3700FF; 
+}
+/*Aligns h1 text to center, and changes font size to 36px*/
+h1 {
+    text-align: center; font-size: 36px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h2 {
+    text-align: center; font-size: 28px;
 }
 img {
     margin:auto;
@@ -8,13 +19,13 @@ img {
 /*For all code within the "main" element, the below code aligns the text to the center, adds a  solid black 2px border to it, curves the border, 
 adds a background color of aquamarine, a margin of 10px by 250px, and padding of 2px by 20px*/
 main {
-    text-align: center; border: 1px solid black; margin: 2px 250px; padding: 2px 20px; background-color: whitesmoke; font-size: 16px;
+    text-align: center; font-size: 16px; background-color: whitesmoke; border: 1px solid black; margin: 2px 195px; padding: 5px 15px;
 }
 /*Class for all links in the nav bar. Makes the background color darkblue, text color aliceblue, padding of 16px by 185px, font-size of 20px,
 font family-Arial Verdana, sans-serif, and removes the line from underneath the links*/
 .navbarlink {
-    background-color: darkblue; color:aliceblue; 
-    padding: 16px 185px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
+    background-color: darkblue; color:aliceblue; text-align: center;
+    padding: 16px 130px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
 }
 /*When you hover over a link it changes the background color to cornflower blue, and the text color to honey dew*/
 a:hover {
