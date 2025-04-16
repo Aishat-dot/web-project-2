@@ -1,7 +1,13 @@
 /*
 I chose the monochromatic color family because I liked the idea of using one color in different ways.
 I chose the color blue because it has been proven to increase productivity and extend perspective.
+I think using the color blue with the monochromatic color family is optimal because,
+the clients' attention will not be divided over too many colors,
+as it will be just the different shades and tints of blue.
 */
+* {
+    line-height: 2.3rem;
+}
 /*Adds a margin to all images*/
 body {
     background-color: #3700FF; 
@@ -24,8 +30,8 @@ main {
 /*Class for all links in the nav bar. Makes the background color darkblue, text color aliceblue, padding of 16px by 185px, font-size of 20px,
 font family-Arial Verdana, sans-serif, and removes the line from underneath the links*/
 .navbarlink {
-    background-color: darkblue; color:aliceblue; text-align: center;
-    padding: 16px 130px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
+    background-color: darkblue; color:aliceblue; float: left;
+    padding: 12px 130px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
 }
 /*When you hover over a link it changes the background color to cornflower blue, and the text color to honey dew*/
 a:hover {
@@ -34,7 +40,4 @@ a:hover {
 /*Class for source links. Makes text color darkblue, font size - 14 pixels, and removes line from underneath*/
 .sources {
     color: 3538E9; font-size: 14px; text-decoration: none;
-}
-* {
-    line-height: 2.3rem;  
 }
