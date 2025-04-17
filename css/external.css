@@ -10,32 +10,38 @@ as it will be just the different shades and tints of blue.
 }
 /*Adds a margin to all images*/
 body {
-    background-color: #3700FF; 
+    background-color: #7D7DFF; 
 }
 /*Aligns h1 text to center, and changes font size to 36px*/
 h1 {
-    text-align: center; font-size: 36px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-align: center; font-size: 48px; font-family: 'Times New Roman', Times, serif;
 }
+/*Aligns h2 text to center, and changes font size to 28px*/
 h2 {
-    text-align: center; font-size: 28px;
+    text-align: center; font-size: 24px;
 }
+/*Aligns h3 text to center, and sets font size to 20px*/
+h3 {
+    text-align: left; font-size: 20px;
+}
+/*Sets image margin to auto*/
 img {
     margin:auto;
 }
 /*For all code within the "main" element, the below code aligns the text to the center, adds a  solid black 2px border to it, curves the border, 
 adds a background color of aquamarine, a margin of 10px by 250px, and padding of 2px by 20px*/
 main {
-    text-align: center; font-size: 16px; background-color: whitesmoke; border: 1px solid black; margin: 2px 195px; padding: 5px 15px;
+    text-align: center; font-size: 16px; background-color: whitesmoke; border: 1px solid black; margin: 2px 205px; padding: 5px 15px;
 }
 /*Class for all links in the nav bar. Makes the background color darkblue, text color aliceblue, padding of 16px by 185px, font-size of 20px,
 font family-Arial Verdana, sans-serif, and removes the line from underneath the links*/
 .navbarlink {
     background-color: darkblue; color:aliceblue; float: left;
-    padding: 12px 130px; font-size: 20px; font-family: Arial Verdana, sans-serif; text-decoration: none;
+    padding: 12px 130px; font-size: 20px; font-family: 'Times New Roman', Times, serif; text-decoration: none;
 }
 /*When you hover over a link it changes the background color to cornflower blue, and the text color to honey dew*/
 a:hover {
-    background-color: cornflowerblue; color: honeydew; 
+    background-color: #7D7DFF; color: honeydew; 
 }
 /*Class for source links. Makes text color darkblue, font size - 14 pixels, and removes line from underneath*/
 .sources {
